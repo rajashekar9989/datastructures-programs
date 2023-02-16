@@ -1,0 +1,32 @@
+package primitiveVersionOfFunctionalInterface;
+
+
+/* Primitive Function Types ;
+ * 
+ * 1.IntFunction :can take int type as input
+ * 
+ * 2.LongFunction: can Take Long as Input type
+ * 
+ * 3.DoubleFunction: can take double as input and return type can be any type;
+ * 
+ * 
+ * DoubleToIntFunction:input type :double and return type :int.
+ * 
+ * DoubleToLongFunction: input type :double and return type : Long.
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+public class IntFunctionDemo {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		Int
+		
+	}
+
+}

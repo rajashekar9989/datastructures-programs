@@ -1,0 +1,32 @@
+package DefaultMethods;
+
+import java.util.function.Predicate;
+
+public class PredicateDemo1 {
+
+	public static void main(String[] args) {
+		
+		
+		String[] s= {"Naga", "balaKrishana","chiranjeevi","charan","Venkatesh","mahesh"};
+		
+		Predicate<String> p =s->s.length()>5;
+		
+		for(String s1 :s) {
+			
+			if(p.test(s1)) {
+				
+				System.out.println(s1);
+			}
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

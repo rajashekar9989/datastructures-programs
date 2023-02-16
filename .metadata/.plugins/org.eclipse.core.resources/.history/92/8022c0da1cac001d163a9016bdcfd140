@@ -1,0 +1,9 @@
+package functionalInterfacesDemos;
+
+public class Student {
+	
+	String stuName;
+	
+	int marks;
+
+}

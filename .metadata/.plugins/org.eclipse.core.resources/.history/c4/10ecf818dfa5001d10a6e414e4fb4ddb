@@ -1,0 +1,110 @@
+package javaCursors;
+
+import java.util.LinkedList;
+import java.util.ListIterator;
+
+public class ListIteratorDemo {
+	
+	/* 1.By using ListIterator we can move either forward direction or  to the  backward direction,
+	 * 
+	 *  hence ListLterator is the Bidirectional cursor.
+	 *  
+	 *  
+	 *  2. by using ListIterator we can perform replacement and addition of new objects in addition to
+	 *  
+	 *  read and remove  operations.
+	 *  
+	 *  3. we can create ListIterator Objectv by using listIterator() method of List interface
+	 *  
+	 *   
+	 *      public ListIterator listiterator();
+	 *      
+	 *      
+	 *    Example: ListIterator itr =l.listIterator();
+	 *    
+	 *      where l is any List Object
+	 *      
+	 *      
+	 *      
+	 *  Methods in ListIterator
+	 *  
+	 * -Listiterator is the child interface of iterator and hence all the methods of iterator 
+	 * by default available to Listiterator.
+	 * 
+	 * Listiterator defines the following 9 methods.
+	 * 
+	 *                           forwrd direction                                   
+	 * 
+	 * 1.publuic boolean hasNext();
+	 * 
+	 * 2.public void next();
+	 * 
+	 * 3.public int nextIndex();
+	 * 
+	 * 
+	 * 
+	 *                           Backward Direction 
+	 * 
+	 * 4. public boolean hasPrevious();
+	 * 
+	 * 5. public void previous();
+	 * 
+	 * 6.public intPreviousIndex();
+	 *                                   
+	 *                                   Other capability methods
+	 *                                   
+	 *   7.public void remove();
+	 *   
+	 *   8.public void set(Object new);
+	 *   
+	 *   9.public void add(Object new);
+	 * 
+	 * 
+	 */
+
+	public static void main(String[] args) {
+		
+		
+		LinkedList l = new LinkedList();
+		l.add("BalaKrishna");
+		l.add("chiru");
+		
+		l.add("venky");
+		
+		l.add("nag");
+		
+		System.out.println(l);//[BalaKrishan, chiru, venky, nag]
+		
+		ListIterator itr = l.listIterator();
+		
+		
+			
+		
+		while(itr.hasNext()) {
+			
+			String s =(String) itr.next();
+			
+			if(s.equals("venky")) {
+				
+				itr.remove();//
+			}
+			else if(s.equals("nag")) {
+				
+				itr.add("chaitu");//
+			}
+			
+			else if(s.equals("chiru")) {
+				
+				itr.set("charan");// charan chaitu
+			}
+			
+			
+		}
+		
+		System.out.println(l);//[Balakrishna, nag,chaitu, charan
+		
+		
+
+	}
+
+}

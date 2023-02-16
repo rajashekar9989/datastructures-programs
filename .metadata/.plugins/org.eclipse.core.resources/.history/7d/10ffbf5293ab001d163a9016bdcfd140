@@ -1,0 +1,24 @@
+package DefaultMethods;
+
+import java.util.function.Predicate;
+
+public class PredicateDemo2 {
+
+	public static void main(String[] args) {
+	
+		
+		String[] s= {"Nag", "chiranjeevi","venkatesh","balaiah","sunny","katrina"};
+		
+		Predicate<String> p = N-->s.length%2==0;
+		
+		for(String s1:s) {
+			
+			if(p.test(s1)) {
+				
+				System.out.println(s1);
+			}
+		}
+
+	}
+
+}

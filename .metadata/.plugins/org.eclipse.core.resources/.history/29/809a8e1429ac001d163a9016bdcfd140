@@ -1,0 +1,15 @@
+package functionalInterfacesDemos;
+
+public class IntUnaryOperator {
+
+	public static void main(String[] args) {
+	
+		IntUnaryOperator f1 =i->i+1;
+		
+		System.out.println(f1.applyAsInt(4));
+		
+		
+
+	}
+
+}

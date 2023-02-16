@@ -1,0 +1,19 @@
+package functionalInterfacesDemos;
+
+import java.util.function.Function;
+
+public class FunctionDemo {
+	
+	//Function<T,r> is the one of the Functional interface which contains single abstract method 
+	// i.e. apply() method
+
+	public static void main(String[] args) {
+		
+		
+		Function<Integer,Integer> f =i->i*i;
+		
+		System.out.println(f.apply(4));//16
+
+	}
+
+}

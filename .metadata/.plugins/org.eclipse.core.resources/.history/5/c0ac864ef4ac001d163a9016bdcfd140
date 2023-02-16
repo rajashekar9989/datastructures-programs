@@ -1,0 +1,13 @@
+package dateAndTimeApi;
+
+import java.time.LocalDate;
+
+public class DateApiDemo {
+
+	public static void main(String[] args) {
+		
+		LocalDate date = LocalDate.now();
+
+	}
+
+}

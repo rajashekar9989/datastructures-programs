@@ -1,0 +1,14 @@
+package DefaultMethods;
+
+import java.util.ArrayList;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<Employee> l = new ArrayList<Employee>();
+
+	}
+
+}

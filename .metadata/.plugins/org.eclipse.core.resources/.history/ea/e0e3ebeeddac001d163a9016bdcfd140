@@ -1,0 +1,29 @@
+package streamsExample;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class StreamDemo4 {
+
+	public static void main(String[] args) {
+		
+		ArrayList names =new ArrayList();
+		
+		names.add("Sunny");
+		names.add("Kajal");
+		names.add("Prabhas");
+		names.add("Anushka");
+		names.add("Mallika");
+		
+		System.out.println(names);
+		
+		List<String> naturalsorted =(List<String>) names.stream().sorted().collect(Collectors.toList());
+		
+		
+		System.out.println(naturalsorted);
+		
+
+	}
+
+}

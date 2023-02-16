@@ -1,0 +1,21 @@
+package DefaultMethods;
+
+import java.util.ArrayList;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<Employee> l = new ArrayList<Employee>();
+		
+		l.add(new Employee("durga",1000));
+		l.add(new Employee("Ravi",2000));
+		l.add(new Employee("shiva",3000));
+		l.add(new Employee("mahesh",4000));
+		l.add(new Employee("adarsh",5000));
+		
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package streamsExample;
+
+import java.util.ArrayList;
+
+public class StreamDemo7 {
+
+	public static void main(String[] args) {
+	
+		
+		
+ArrayList l = new ArrayList();
+		
+		l.add(10);
+		l.add(20);
+		l.add(15);
+		l.add(0);
+		l.add(5);
+		l.add(2);
+		
+		System.out.println(l);
+		l.stream().forEach(i->){
+			System.out.println("The square of "+i+ "is; "+(i*i));
+			
+		});
+
+	}
+
+}

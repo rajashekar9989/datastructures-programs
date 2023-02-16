@@ -1,0 +1,66 @@
+package comparatorInterface;
+
+
+/* Note: 
+ * 
+ * 1.if we are depending on default natural sorting order then objects should be homogeneous and comparable otherwise  we will get 
+ *   run time exception saying class cast exception.
+ *   
+ * 2.but if we are defining our own sorting order by comparator then objects need not be homogeneous and comparable.
+ *   we can insert heterogeneous non comparable objects also.  
+ * 
+ * Example as shown in below
+ */
+
+
+
+public class Employee implements Comparable {
+	
+	
+	String name;
+	int eid;
+	
+	
+	Employee(String name, int eid){
+		
+		this.name = name;
+		this.eid =eid;
+	}
+	
+	public String toString() {
+		
+		
+		return name+"-"+eid;
+	}
+
+	@Override
+	public int compareTo(Object o) {
+	int eid1 =this.eid;
+	Employee e =(Employee)o;
+	
+	int eid2 = e.eid;
+	
+	if(eid1<eid2) {
+		
+		return -1;
+		
+		}
+	else if(eid1>eid2) {
+		
+		return +1;
+	}
+	
+	else {
+		
+		return 0;
+		
+		}
+	
+	
+		
+	}
+}
+
+
+
+

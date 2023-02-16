@@ -1,0 +1,62 @@
+package setInterface;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+	
+	/*1. The underlying data structure for treeset is balancedTree.
+	 * 
+	 * 2.duplicates are not alllowed.
+	 * 
+	 * 3.insertion order is not preserved , but  all objects will be inserted according to some sorting order.
+	 * 
+	 * 4.Heterogeneous objects are not allowed , if we tring to insert heterogeneous objects then we will get runtime exception 
+	 * saying class cast exception.
+	 * 
+	 *  5.null insertion is allowed but only once.
+	 *  
+	 *    TreeSet Constructors.
+	 *    
+	 *    1. TreeSet t = new TreeSet();
+	 *    
+	 *    --cretaes an empty treeset object where elements will be inserted according to default sorting order
+	 *    
+	 *   
+	 *   2.Treeset t = new TreeSet(comparator c);
+	 *   
+	 *  --cretaes an empty treeset object where elements will be inserted according to customized sorting order.
+	 * 
+	 * 3. TreeSet t = new TreSet(SortedSet s);
+	 * 
+	 * 4.TreeSet t = new TreeSet(Collection c );
+	 * 
+	 * 
+	 * 
+	 */
+
+	public static void main(String[] args) {
+		
+		
+		TreeSet t = new TreeSet();
+		
+		t.add("A");
+		t.add("a");
+		t.add("B");
+		t.add("Z");
+		t.add("L");
+		
+		// t.add(new Integer(10));// class cast exception 
+		
+		t.add(null);// null pointer exception 
+		
+		System.out.println(t);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

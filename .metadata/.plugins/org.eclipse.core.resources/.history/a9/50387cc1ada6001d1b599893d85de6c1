@@ -1,0 +1,16 @@
+package comparatorInterface;
+
+public class ComparatorDemo {
+	
+	
+	/* 1. pre defined comparable classes like string default natural sorting order already available 
+	 * 
+	 * 
+	 */
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

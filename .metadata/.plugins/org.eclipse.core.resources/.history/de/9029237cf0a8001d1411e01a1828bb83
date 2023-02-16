@@ -1,0 +1,48 @@
+package dataStructuresExamples;
+
+// implement a program to check whether the given number is prime number or not
+
+/*if it is prime number return true or if not return false.
+ * 
+ * Algorithm:
+ * 
+ * read n value from the user
+ * 
+ * apply the business logic
+ *  print the result
+ *  
+ *  Logic 1: by using loops ;
+ *  
+ *  logic 2 : by using Recursion
+ * 
+ 
+ * 
+ */
+
+class P{
+	
+	// logic 1 by using loops
+	static boolean isPrime(int n) {
+		
+		for(int i =0;i<=n;i++)
+			
+			
+		
+		else 
+			
+			(int factorial ==2) ;
+		
+		return false;
+	}
+}
+
+public class CheckPrimeNumberOrNot {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

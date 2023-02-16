@@ -1,0 +1,45 @@
+package setInterface;
+
+public class LinkedHashSet {
+	/*  1. it is the child class of HashSet.
+	 * 2.introduced in 1.4 version.
+	 * 3. it is exactily same as HashSet except the folling difference.
+	 * 
+	 * Hash Set                                       LinkedHashSet
+	 * 
+	 * 1.the underlying data structure is Hashtable.   1.the underlying data structure is Hashtable + linked List
+	 
+	 *2.insertion order is not preserved               2. insertion order is not preserved.
+	 *
+	 * 3.introduced  in 1.2 version                    3.introduced in 1.4 version 
+	 */
+	 
+
+	public static void main(String[] args) {
+		
+		
+		LinkedHashSetDemo = new LinkedHashSetDemo();
+		
+		h.add("B");
+	    h.add("C");
+	     h.add("D");
+	    h.add("Z");
+	    h.add("null");
+	    h.add("10");
+	
+	 // System.out.println();// false
+	  
+	  System.out.println(h);
+	
+
+	}
+
+	
+/*  Note : 
+ * -LinkedHashSet is the best choice to develop cache based applicatioin , where duplicates are not allowed 
+ * 
+ * and insertion order must be preserved  
+ * 
+ */
+ 
+}

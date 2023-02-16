@@ -1,0 +1,13 @@
+package functionalInterfacesDemos;
+
+import java.util.ArrayList;
+
+public class BiPredicateDemo1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Employee> l = new  ArrayList<Employee>();
+
+	}
+
+}

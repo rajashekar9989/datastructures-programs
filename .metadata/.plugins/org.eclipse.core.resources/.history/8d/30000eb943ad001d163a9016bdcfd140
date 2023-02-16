@@ -1,0 +1,17 @@
+package dateAndTimeApi;
+
+import java.time.LocalDate;
+import java.time.Period;
+
+public class DeathDayDemo {
+	
+	public static void main(String[] args) {
+		
+		LocalDate deathday =LocalDate.of(1998+60, 10, 22);
+		
+	     LocalDate today =LocalDate.now();
+	     
+		Period p1 = Period.between(deathday, deathday) 
+	}
+
+}

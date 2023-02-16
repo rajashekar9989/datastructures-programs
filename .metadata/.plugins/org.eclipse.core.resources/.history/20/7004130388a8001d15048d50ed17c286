@@ -1,0 +1,26 @@
+package dataStructuresExamples;
+
+
+
+class F {
+	
+	
+	 static int (int n) {
+		 
+		int  fact =1;
+		 
+		 for(int i=0;i<=n;i++) {
+			 
+			 fact =fact*n;
+		 }
+		 return n;
+	 }
+}
+public class FindFactorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

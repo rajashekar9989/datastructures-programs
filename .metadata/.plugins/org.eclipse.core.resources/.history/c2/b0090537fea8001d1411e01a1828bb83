@@ -1,0 +1,88 @@
+package dataStructuresExamples;
+
+import java.util.Scanner;
+
+//implement a program to find max/min of two numbers.
+
+/*Example :
+ * 2,3----> 3
+ * 
+ * 6,10--> 10;
+ * 
+ * Algorithm:
+ *  1.read the value from the user
+ *  apply business logic
+ *  print Result
+ *  
+ *  
+ *  logic 1: by using Ternary operator
+ *   ex: (condition)?true:false
+ *   
+ *   logic2 : using java predfined methods
+ *   
+ *   lang package default package  ex:Math.max(); and Math.min();
+ *  
+ *  
+ * 
+ * 
+ */
+
+class Max{
+	
+	
+	// logic 1 : by using ternary operator
+	
+	static int Max1(int a , int b) {
+		
+		
+		return (a>b)?a:b;
+	}
+	
+static int Min1(int a , int b) {
+		
+		
+		return (a>b)?b:a;
+	}
+	
+	
+	
+	// logic 2 : by using predefined method
+	static int max(int a,int b) {
+		return Math.max(a, b);
+		
+	}
+	
+	static int min(int a, int b) {
+		
+		return Math.min(a, b);
+	}
+}
+ 
+public class FindMinMaxNumbers {
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+				
+				System.out.println("enter a first value");
+				
+			int a =	scan.nextInt();
+			
+			System.out.println("enter a second value");
+			
+			int b = scan.nextInt();
+			
+			
+			//System.out.println(Max.max(a, b));
+			//System.out.println(Max.Max1(a, b));
+			
+			System.out.println(Max.Min1(a, b));
+
+	}
+
+}

@@ -1,0 +1,50 @@
+package comparatorInterface;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class CustomizedSortingDemo {
+
+	public static void main(String[] args) {
+		
+		
+		TreeSet t = new TreeSet();
+		
+		t.add(10);
+		t.add(0);
+		t.add(20);
+		t.add(2);
+		t.add(5);
+		t.add(50);
+		t.add(30);
+		System.out.println(t);
+		
+
+	}
+	
+	class MyClass implements Comparator{
+
+		@Override
+		public int compare(Object o1, Object o2) {
+			
+			Integer l1 =(Integer)o1;
+			
+			Integer l2 =(Integer)02;
+			
+		 if(l1<l2) {
+			 
+			 return -1;
+		 }
+		 
+		 else if (l1>l2) {
+			 return +1;
+		 }
+			
+		 
+			return 0;
+		}
+		
+		
+	}
+
+}

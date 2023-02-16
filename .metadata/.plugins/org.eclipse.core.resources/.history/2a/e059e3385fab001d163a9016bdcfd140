@@ -1,0 +1,30 @@
+package DefaultMethods;
+
+
+
+
+
+public class DefaultTest implements InterfaceDemo {
+
+	@Override
+	public void m1() {
+		
+		System.out.println("default method overriding");
+		
+	}
+	
+	
+	class Demo{
+   public static void main(String[] args) {
+	
+	
+	DefaultTest sd = new DefaultTest();
+	sd.m1();
+	
+	
+	
+	
+}
+}
+
+

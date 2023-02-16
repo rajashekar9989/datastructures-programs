@@ -1,0 +1,25 @@
+package setInterface;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo2  {
+
+	public static void main(String[] args) {
+		
+		TreeSet t = new TreeSet();
+		
+		t.add("Roja");
+		
+		t.add("Rani");
+		t.add("shekar");
+		t.add("Ravi");
+		t.add("swamy");
+		t.add("latha");
+		t.add("anu");
+		t.add("Rjesh");
+		
+		System.out.println(t);
+
+	}
+
+}

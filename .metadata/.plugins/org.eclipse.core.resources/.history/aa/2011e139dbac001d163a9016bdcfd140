@@ -1,0 +1,25 @@
+package streamsExample;
+
+/*
+comparator-->compare(obj1, obj2)
+* 
+* return -1 if obj1 has come before obj2.
+* 
+* return +1 if obj1 has come after obj2.
+* 
+* return 0 if obj1 and obj2 both are equal.
+* 
+* sorted()-->According to default natural sorting order.
+* 
+* sorted(Comparator)--> customized sorting order.
+* 
+* 
+*/
+public class StreamDemo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

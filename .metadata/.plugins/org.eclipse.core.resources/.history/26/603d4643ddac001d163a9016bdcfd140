@@ -1,0 +1,21 @@
+package streamsExample;
+
+import java.util.ArrayList;
+
+public class StreamDemo4 {
+
+	public static void main(String[] args) {
+		
+		ArrayList names =new ArrayList();
+		
+		names.add("Sunny");
+		names.add("Kajal");
+		names.add("Prabhas");
+		names.add("Anushka");
+		names.add("Mallika");
+		
+		
+
+	}
+
+}

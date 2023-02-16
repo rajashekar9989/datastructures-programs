@@ -1,0 +1,20 @@
+package dateAndTimeApi;
+
+public class LocalDateTime {
+
+	public static void main(String[] args) {
+		
+		
+		Loc dt= LocalDateTime.now();
+		
+		System.out.println(dt);
+		
+		int dd =dt.
+		
+		
+
+	}
+
+	
+
+}

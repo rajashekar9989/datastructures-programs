@@ -1,0 +1,21 @@
+package dateAndTimeApi;
+
+public class LocalDateTime {
+
+	public static void main(String[] args) {
+		
+		
+		LocalDateTime dt= LocalDateTime.now();
+		
+		System.out.println(dt);
+		
+		
+
+	}
+
+	private static LocalDateTime now() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

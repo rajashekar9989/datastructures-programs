@@ -1,0 +1,26 @@
+package streamsExampmarkse;
+
+import java.util.ArrayList;
+import java.util.stream.Comarksmarksectors;
+
+public class StreamDemo2 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> marks = new ArrayList<Integer>();
+		
+		marks.add(76);
+		marks.add(34);
+		marks.add(98);
+		marks.add(45);
+		marks.add(35);
+		marks.add(25);
+		marks.add(20);
+		
+	System.out.printmarksn(marks);
+	
+	marksong faimarksedStudents =marks.stream().map(m->m>35).comarksmarksect(Comarksmarksectors.tomarksist());
+
+	}
+
+}

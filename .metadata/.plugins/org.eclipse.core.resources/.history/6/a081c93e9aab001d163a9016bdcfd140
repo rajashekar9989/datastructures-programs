@@ -1,0 +1,33 @@
+package functionalInterfacesDemos;
+
+import java.util.function.Function;
+
+/*Function Chaining
+ * 
+ * f1.andThen(f2).apply(i0
+ * 
+ * first f1 and followed by f2.
+ * 
+ * f1.compose(f2).apply(i)
+ * 
+ * first f2 and then f1
+ * 
+ * 
+ * 
+ */
+
+public class FunctionDemo2 {
+
+	public static void main(String[] args) {
+		Function<Integer,Integer> f1 = i->i*2;// 2*2 =4
+		
+		Function<Integer,Integer> f2 = i->i*i*i;// 4*4*4=64
+		
+		System.out.println(f1.andThen(f2).apply(2));
+		
+		
+		
+
+	}
+
+}

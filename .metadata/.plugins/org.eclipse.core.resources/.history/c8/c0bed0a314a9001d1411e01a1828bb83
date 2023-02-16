@@ -1,0 +1,10 @@
+package dataStructuresExamples;
+
+public class FibanacciSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

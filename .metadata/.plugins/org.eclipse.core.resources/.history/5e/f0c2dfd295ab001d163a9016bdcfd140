@@ -1,0 +1,25 @@
+package DefaultMethods;
+
+/*p1---> to check whether number is even or not.
+ * 
+ * p2-->to check whether number >10 or not
+ * 
+ * p1.and(p2).test(34)
+ * 
+ * predicate Joining:
+ * 
+ * p1.or(p2)
+ * 
+ * p1.negate();
+ * 
+ * 
+ */
+
+public class PredicateJoining {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

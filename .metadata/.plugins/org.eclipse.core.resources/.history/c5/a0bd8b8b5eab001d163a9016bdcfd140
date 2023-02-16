@@ -1,0 +1,5 @@
+package DefaultMethods;
+
+public interface InterfaceDemo {
+
+}

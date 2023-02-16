@@ -1,0 +1,27 @@
+package dataStructuresExamples;
+
+public class SSL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		SingleLinkedList list = new SingleLinkedList();
+		
+		list.addFirst(111);
+		
+		list.addLast(222);
+		list.addLast(333);
+		list.addLast(444);
+		list.traverse;
+		
+		
+
+	}
+
+	
+	
+	
+	 
+		 
+	 
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;setInterface.LinkedHashSet&apos; to &apos;LinkedHashSetDemo&apos;&#x0D;&#x0A;- Original project: &apos;CollectionFramework&apos;&#x0D;&#x0A;- Original element: &apos;setInterface.LinkedHashSet&apos;&#x0D;&#x0A;- Renamed element: &apos;setInterface.LinkedHashSetDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinkedHashSet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;setInterface{LinkedHashSet.java[LinkedHashSet" matchStrategy="1" name="LinkedHashSetDemo" qualified="false" references="true" similarDeclarations="false" stamp="1676531907256" textual="false" version="1.0"/>
+</session>

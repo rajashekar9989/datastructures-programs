@@ -1,0 +1,70 @@
+package setInterface;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+	
+	/*   Hash Set
+	 * 
+	 *1.the uderlying data structure is hashtable
+	 *
+	 *2.duplicates are not allowed , if we  are trying to insert duplicates, 
+	 *we won't get any complietime or runtime errors. add() method simply returns false.
+	 *
+	 *3. insertion order is nor preserved and all objects will be inserted based on hash-code an objects.
+	 *
+	 *4. Heterogeneous objects are allowed.
+	 *
+	 *5. null insertion is possible.
+	 *
+	 *6.implements Serializable and clonable interface but not RandomAccess.
+	 *
+	 *7. HahsSet is the best choice, if our frequent operation is Search operation.
+	 *
+	 *
+	 *    CONSTRUCTORS OF HASHSET.
+	 *    
+	 *    1. HashSet h = new HashSet();
+	 *    
+	 *    - creates an empty HashSet object with default initial capacity 16 and default fill ratio 0.75.
+	 *    
+	 *    2.HashSet h - new HashSet(int initial capacity);
+	 *    
+	 *    - creates an empty HashSet object with specified initial capacity and  default load factor (0.75)
+	 *    
+	 *    3.  HashSet h = new HashSet(int initial capacity ,float load factor);
+	 *    
+	 *    - creates an empty hashset ovject with  specified initial capacity and specified load factor or fill Ratio.
+	 *    
+	 *    4. HashSet h = new HashSet(Collection c);
+	 *    
+	 *    -for inter conversion between Collection objects.
+	 *    
+	 *    lOAD fACTOR OR fILL RATIO :
+	 *    
+	 *    -aFTER LOADING THE HOW MUCH FACTOR , a new HashSet object will be created, that  factor iscalled as
+	 *    
+	 *     load factor or fill ratio.
+	 *     
+	 *     
+	 */
+
+	public static void main(String[] args) {
+		
+		
+		HashSet h = new HashSet();
+		
+		h.add("B");
+		h.add("C");
+		h.add("D");
+		h.add("z");
+		h.add("null");
+		h.add(10);
+		System.out.println(h.add("z"));// false
+		
+		System.out.println(h);
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package dataStructuresExamples;
+
+public class Demo {
+	int x,y;
+	Demo(){
+		
+		this.x  =0;
+		this.y=0;
+	}
+	
+	Demo(int x, int y){
+		
+		this.x =x;
+		this.y =y;
+	}
+	
+	void show() {
+		
+		System.out.println("X ="+this.x +"Y ="+this.y) ;
+	}
+
+}
+
+class Test{
+	
+	
+	public static void main(String[] args) {
+		Demo d = new Demo();
+	}
+}

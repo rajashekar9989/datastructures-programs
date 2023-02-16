@@ -1,0 +1,10 @@
+package java8FeaturesExamples;
+
+public class Sample {
+	
+	Sample(){
+		
+		System.out.println("SAMPLE CLASS CONSTRUCTOR EXCUTION ----");
+	}
+
+}

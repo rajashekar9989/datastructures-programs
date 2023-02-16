@@ -1,0 +1,28 @@
+package comparatorInterface;
+
+public class ComparatorDemo {
+	
+	
+	/* 1. for  predefined comparable classes like string default natural sorting order already available, if
+	 *  we are not  satisfied with that, we can define our own sorting by comparator object.
+	 *  
+	 *  2. For predefined non comparable  classes like stringBuffer , default natural sorting order is not laready
+	 *   available , we can define required sorting by implementing the comparator interface.
+	 *  
+	 *  3. For our own classes like Student, Employee, customer) the person who written  our own class he is responsible 
+	 *  to define default natural sorting order by implementing Comparable interface.
+	 *  
+	 *  the person  who is using our own class , if he is not satisfied with default natural sorting order , then he can define his
+	 *  own  sorting by using Comparator.
+	 *  
+	 *  
+	 * 
+	 * 
+	 */
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

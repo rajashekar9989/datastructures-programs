@@ -1,0 +1,10 @@
+
+Comparable  interface                                                                               Comparator interface
+
+1.it is meant for default natural sorting order										1.it is meant for customized sorting order
+
+2.it is present in java.lang package                                                2. it is present java.util package
+
+3.this interface defines only one method compareTo();                               3.this interface defines two methods compare() and equals().
+
+4.All wrapper classes and String class implement comparable interface              4.the only implemented classes of comparator are collator and RuleBaseCollator. 
