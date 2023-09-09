@@ -24,12 +24,6 @@
 			<item value="org.eclipse.oomph"/>
 			<item value="org.eclipse.pde.PDE"/>
 			<item value="org.eclipse.datatools.sql"/>
-			<item value="org.eclipse.mylyn.ui.wizards.new"/>
-			<item value="org.eclipse.pde.userAssistance"/>
-			<item value="org.eclipse.wst.web.ui"/>
-			<item value="org.eclipse.jst.ws.ui.new"/>
-			<item value="org.eclipse.jst.ws.ui.new/org.eclipse.jst.ws.jaxws.ui.wizards.category"/>
-			<item value="org.eclipse.wst.XMLCategory"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
@@ -38,6 +32,8 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.egit.ui.RepositoriesView"/>
+			<item value="org.eclipse.mylyn.commons.repositories.ui.navigator.Repositories"/>
 			<item value="org.eclipse.ui.console.ConsoleView"/>
 			<item value="org.eclipse.ui.navigator.ProjectExplorer"/>
 			<item value="org.eclipse.ui.preferencePages.ColorsAndFonts"/>
@@ -45,18 +41,30 @@
 		<list key="orderedProviders">
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
 			<item value="1"/>
 			<item value="2"/>
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="git re"/>
+			<item value="team"/>
 			<item value="console"/>
 			<item value="project"/>
 			<item value="projec"/>
 			<item value="font"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
 		</list>
 	</section>
 </section>

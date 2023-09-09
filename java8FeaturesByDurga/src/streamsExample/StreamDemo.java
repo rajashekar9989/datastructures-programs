@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * 
  * if we want process the objects from  the collection  we should go for stream()
  * 
- * in the streams we have two methods  one is filter an map.
+ * in the streams we have two methods  one is filter and map.
  * 
  * fliter based on the marks : select only passed students 
  * 

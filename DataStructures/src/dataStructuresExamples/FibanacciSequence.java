@@ -40,8 +40,8 @@ class Fibanacci{
 		
 	ArrayList list = new ArrayList();
 			
-	      a=0;
-	      b=1;
+	      a=1;
+	      b=2;
 	   
 	   list.add(a);
 	   list.add(b);
